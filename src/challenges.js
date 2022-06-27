@@ -14,13 +14,14 @@ function compareTrue(valor1, valor2) {
 function calcArea(base, height) {
   // seu código aqui
   let areaTriangulo;
-  areaTriangulo = (base * height) / 2
+  areaTriangulo = (base * height) / 2;
   return areaTriangulo;
 }
 
 // Desafio 3
-function splitSentence() {
+function splitSentence(frase) {
   // seu código aqui
+  return frase.split(' ');
 }
 
 // Desafio 4
