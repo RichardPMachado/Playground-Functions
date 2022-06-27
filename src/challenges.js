@@ -74,7 +74,7 @@ function fizzBuzz(numeros) {
   // seu código aqui
   let array = [];
   for (let index in numeros) {
-    if (numeros[index] % 3 === 0 && numeros [index] % 5 === 0) {
+    if (numeros[index] % 3 === 0 && numeros[index] % 5 === 0) {
       array.push('fizzBuzz');
     } else if (numeros[index] % 5 === 0) {
       array.push('buzz');
@@ -111,8 +111,20 @@ function decode(codigo) {
 }
 
 // Desafio 10
-function techList() {
+function techList(tech, name) {
   // seu código aqui
+  tech.sort();
+  let objeto = [];
+  if (tech == 0) {
+    return 'Vazio!';
+  } else {
+    for (let index in tech) {
+      objeto[index] = {};
+      objeto[index].tech = tech[index];
+      objeto[index].name = name;
+    }
+    return objeto;
+  } 
 }
 
 module.exports = {
