@@ -1,3 +1,4 @@
+//Richard P Machado t24 tribo B
 // Desafio 1
 function compareTrue() {
   // seu código aqui
