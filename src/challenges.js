@@ -90,7 +90,7 @@ function fizzBuzz(numeros) {
 // Desafio 9
 function encode(frase) {
   // seu código aqui
-  let codigo = frase
+  let codigo = frase;
   codigo = codigo.replace(/a/g, '1');
   codigo = codigo.replace(/e/g, '2');
   codigo = codigo.replace(/i/g, '3');
@@ -101,7 +101,7 @@ function encode(frase) {
 
 function decode(codigo) {
   // seu código aqui
-  let frase = codigo
+  let frase = codigo;
   frase = frase.replace(/1/g, 'a');
   frase = frase.replace(/2/g, 'e');
   frase = frase.replace(/3/g, 'i');
