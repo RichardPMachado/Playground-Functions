@@ -64,7 +64,7 @@ function catAndMouse(mouse, cat1, cat2) {
   if (cat1 - mouse < cat2 - mouse) {
     return 'cat1';
   }
-  if (cat1 == cat2) {
+  if (cat1 === cat2) {
     return 'os gatos trombam e o rato foge';
   }
 }
@@ -115,7 +115,7 @@ function techList(tech, name) {
   // seu código aqui
   tech.sort();
   let objeto = [];
-  if (tech == 0) {
+  if (tech === 0) {
     return 'Vazio!';
   } else {
     for (let index in tech) {
@@ -124,7 +124,7 @@ function techList(tech, name) {
       objeto[index].name = name;
     }
     return objeto;
-  } 
+  }
 }
 
 module.exports = {
