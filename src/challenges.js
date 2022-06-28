@@ -115,7 +115,7 @@ function techList(tech, name) {
   // seu código aqui
   tech.sort();
   let objeto = [];
-  if (tech === 0) {
+  if (tech == 0) {
     return 'Vazio!';
   } else {
     for (let index in tech) {
@@ -124,9 +124,8 @@ function techList(tech, name) {
       objeto[index].name = name;
     }
     return objeto;
-  }
+  } 
 }
-
 module.exports = {
   calcArea,
   catAndMouse,
